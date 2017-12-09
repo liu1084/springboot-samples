@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jim.springboot</groupId>
-	<artifactId>springboot-demo</artifactId>
+	<artifactId>springboot-all-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>springboot-demo</name>
+	<name>springboot-all-sample</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -25,8 +25,9 @@
 	</properties>
 
     <modules>
-        <module>springboot-cors</module>
-        <module>ajax</module>
+        <module>springboot-cors-sample</module>
+        <module>springboot-ajax-sample</module>
+        <module>springboot-interceptor-sample</module>
     </modules>
 
 	<dependencies>
@@ -64,7 +65,14 @@
             <artifactId>bootstrap</artifactId>
             <version>3.3.7</version>
         </dependency>
-	</dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+    </dependencies>
 
 	<build>
 		<plugins>

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jim</groupId>
-	<artifactId>springboot-cors</artifactId>
+	<artifactId>springboot-cors-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-cors</name>
+	<name>springboot-cors-sample</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

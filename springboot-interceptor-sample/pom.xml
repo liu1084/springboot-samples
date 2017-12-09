@@ -3,19 +3,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.jim.ajax</groupId>
-	<artifactId>springboot-ajax-sample</artifactId>
+	<groupId>com.jim.interceptor</groupId>
+	<artifactId>springboot-interceptor-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-ajax-sample</name>
+	<name>springboot-interceptor-sample</name>
 	<description>Demo project for Spring Boot</description>
 
-<parent>
-    <artifactId>springboot-demo</artifactId>
-    <groupId>com.jim.springboot</groupId>
-    <version>0.0.1-SNAPSHOT</version>
-</parent>
+	<parent>
+		<artifactId>springboot-all-sample</artifactId>
+        <groupId>com.jim.springboot</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,19 +28,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-        <!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
     </dependencies>
 
 	<build>

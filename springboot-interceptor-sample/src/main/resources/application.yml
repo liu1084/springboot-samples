@@ -1,0 +1,11 @@
+logging:
+    level: debug
+    file: application.log
+    path: logs
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true

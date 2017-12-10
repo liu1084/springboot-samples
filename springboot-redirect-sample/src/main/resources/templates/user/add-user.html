@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+	<form>
+		<input type="hidden" id="userId" value="" th:value="${id}">
+		<label for="username">username</label>
+		<input id="username" name="username" value="" th:value="${username}"/>
+		<button id="add-user">submit</button>
+	</form>
+
+<script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/dist/jquery.min.js}"></script>
+<script type="text/javascript" th:src="@{/user.js}"></script>
+</body>
+</html>

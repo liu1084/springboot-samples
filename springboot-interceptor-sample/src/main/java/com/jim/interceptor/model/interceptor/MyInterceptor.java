@@ -1,23 +1,14 @@
 package com.jim.interceptor.model.interceptor;
 
-import com.jim.interceptor.model.WrappedRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.StringWriter;
-import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
-import java.util.stream.Collectors;
 
 /**
  * @author: liu jun

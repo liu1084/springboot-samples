@@ -28,6 +28,9 @@
         <module>springboot-cors-sample</module>
         <module>springboot-ajax-sample</module>
         <module>springboot-interceptor-sample</module>
+        <module>reentrantlock-sample</module>
+        <module>java-file-io-sample</module>
+        <module>springboot-inject-sample</module>
     </modules>
 
 	<dependencies>

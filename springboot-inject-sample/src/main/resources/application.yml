@@ -1,0 +1,22 @@
+## used by ConfigurationProperties
+my:
+  servers:
+    - 192.168.0.1
+    - 192.168.0.2
+    - 192.168.0.3
+
+## global
+spring:
+  profiles:
+    active: dev
+    include: dev, demo
+
+--- ## dev env
+
+spring:
+  profiles: dev
+
+
+--- ## demo env
+spring:
+  profiles: demo

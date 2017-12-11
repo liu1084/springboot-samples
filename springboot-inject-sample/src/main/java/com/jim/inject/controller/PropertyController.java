@@ -3,8 +3,10 @@ package com.jim.inject.controller;
 import com.jim.inject.config.PropertiesBeanInjectConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -15,7 +17,8 @@ import java.util.List;
  * @ver: 1.0
  * @desc:
  */
-@RestController
+@Component
+@ResponseBody
 @RequestMapping(value = "/")
 public class PropertyController {
 

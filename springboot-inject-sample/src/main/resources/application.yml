@@ -10,6 +10,15 @@ spring:
   profiles:
     active: dev
     include: dev, demo
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+debug: true
+logging:
+  level: debug
+  file: app.log
 
 --- ## dev env
 

@@ -17,6 +17,9 @@
 ## spring容器初始化bean和销毁前所做的操作
 @PostConstruct和@PreDestroy
 
+## 一个Configuration中得Bean需要另外一个Configuration构造的bean，可以通过
+@Import来导入，如果需要导入的是以XML形式存在的，用@ImportResource导入。
+
 
 
 

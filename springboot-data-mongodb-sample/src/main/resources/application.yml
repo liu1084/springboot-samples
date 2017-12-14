@@ -1,0 +1,10 @@
+### global
+debug: true
+logging:
+  level: debug
+### mongodb
+spring:
+  data:
+    mongodb:
+      database: user
+      uri: mongodb://localhost:27017/user

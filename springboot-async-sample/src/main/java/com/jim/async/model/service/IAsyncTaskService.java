@@ -1,6 +1,6 @@
 package com.jim.async.model.service;
 
-import org.springframework.stereotype.Service;
+import java.util.concurrent.Future;
 
 /**
  * @author: liu jun
@@ -9,4 +9,5 @@ import org.springframework.stereotype.Service;
  * @desc:
  */
 public interface IAsyncTaskService {
+	Future<Long> factorialCalculator(Integer number);
 }

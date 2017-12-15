@@ -29,10 +29,9 @@ public class PageController {
 	}
 
 	@ExceptionHandler({Exception.class})
-	@ResponseStatus(value = HttpStatus.BAD_REQUEST, reason = "Bad Request")
 	public ModelAndView handleException(Exception ex, HttpServletRequest request, HttpServletResponse response){
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.addObject("message", ex.getMessage());
+		modelAndView.addObject("message", ex.getMessage() + ex.getClass().getName());
 		modelAndView.addObject("url", request.getRequestURL());
 		modelAndView.addObject("code", response.getStatus());
 		modelAndView.setViewName("exception");

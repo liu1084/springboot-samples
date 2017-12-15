@@ -13,9 +13,11 @@ import java.util.List;
  */
 @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR, reason = "Bad Request")
 public class CustomException extends RuntimeException {
-	public CustomException(String code, List<String> messages){
-
+	public CustomException(String messages){
+		super(messages);
 	}
 
-	public CustomException(){}
+	public CustomException(){
+		super();
+	}
 }

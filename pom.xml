@@ -26,9 +26,9 @@
 
     <modules>
         <module>java-annotation-sample</module>
+        <module>java-io-sample</module>
         <module>java-lombok-sample</module>
         <module>java-reentrant-lock-sample</module>
-        <module>spring-custom-annotation-sample</module>
         <module>springboot-ajax-sample</module>
         <module>springboot-async-sample</module>
         <module>springboot-cors-sample</module>
@@ -41,7 +41,6 @@
         <module>springboot-redirect-sample</module>
         <module>springboot-schedule-sample</module>
         <module>springboot-threadpool-sample</module>
-        <module>java-io-sample</module>
     </modules>
 
 	<dependencies>

@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>springboot-annotation-sample</name>
+	<name>java-annotation-sample</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -16,6 +16,10 @@
         <artifactId>springboot-all-sample</artifactId>
         <version>0.0.1-SNAPSHOT</version>
 	</parent>
+
+    <modules>
+        <module>spring-custom-annotation-sample</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

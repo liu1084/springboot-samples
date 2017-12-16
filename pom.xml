@@ -31,6 +31,9 @@
         <module>reentrantlock-sample</module>
         <module>java-file-io-sample</module>
         <module>springboot-inject-sample</module>
+        <module>springboot-async-sample</module>
+        <module>springboot-schedule-sample</module>
+        <module>java-annotation-sample</module>
     </modules>
 
 	<dependencies>

@@ -37,4 +37,8 @@
 *.jpeg          binary
 *.png           binary
 *.so            binary
+<<<<<<< HEAD
 *.war binary
+=======
+*.war           binary
+>>>>>>> 49f58a77e50af8a5d2014b72ee4c2adecdb94ff4

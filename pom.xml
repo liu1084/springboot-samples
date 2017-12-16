@@ -25,15 +25,22 @@
 	</properties>
 
     <modules>
-        <module>springboot-cors-sample</module>
-        <module>springboot-ajax-sample</module>
-        <module>springboot-interceptor-sample</module>
-        <module>reentrantlock-sample</module>
-        <module>java-file-io-sample</module>
-        <module>springboot-inject-sample</module>
-        <module>springboot-async-sample</module>
-        <module>springboot-schedule-sample</module>
         <module>java-annotation-sample</module>
+        <module>java-file-io-sample</module>
+        <module>java-reentrant-lock-sample</module>
+        <module>spring-custom-annotation-sample</module>
+        <module>springboot-ajax-sample</module>
+        <module>springboot-async-sample</module>
+        <module>springboot-cors-sample</module>
+        <module>springboot-data-mongodb-sample</module>
+        <module>springboot-data-redis</module>
+        <module>springboot-exception-sample</module>
+        <module>springboot-i18n-sample</module>
+        <module>springboot-inject-sample</module>
+        <module>springboot-interceptor-sample</module>
+        <module>springboot-redirect-sample</module>
+        <module>springboot-schedule-sample</module>
+        <module>springboot-threadpool-sample</module>
     </modules>
 
 	<dependencies>

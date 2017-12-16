@@ -5,8 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jim.file.io</groupId>
     <version>1.0</version>
-    <artifactId>file-io-sample</artifactId>
-
+    <artifactId>java-file-io-sample</artifactId>
+    <parent>
+        <artifactId>springboot-all-sample</artifactId>
+        <groupId>com.jim.springboot</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <properties>
         <slf4j.version>1.7.5</slf4j.version>
     </properties>

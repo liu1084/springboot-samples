@@ -8,8 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>java-io-sample</artifactId>
-
-
+    <groupId>com.jim.io</groupId>
+    <version>1.0</version>
 </project>

@@ -12,8 +12,8 @@
 	<description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.jim.springboot</groupId>
-        <artifactId>springboot-all-sample</artifactId>
+        <groupId>com.jim.annotation</groupId>
+        <artifactId>java-annotation-sample</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

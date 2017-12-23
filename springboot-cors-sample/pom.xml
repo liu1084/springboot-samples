@@ -13,7 +13,7 @@
 
 	<parent>
         <groupId>com.jim.springboot</groupId>
-        <artifactId>springboot-demo</artifactId>
+        <artifactId>springboot-all-sample</artifactId>
         <version>0.0.1-SNAPSHOT</version>
 	</parent>
 

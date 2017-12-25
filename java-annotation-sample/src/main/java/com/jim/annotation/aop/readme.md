@@ -6,4 +6,4 @@
 5. 定义Controller
 
 ### 重点
-1. AOP的切点拦截的是注解名称，并把ProceedingJoinPoint作为环绕方法的参数
+1. AOP的切点拦截的是注解名称，并把ProceedingJoinPoint作为环绕方法的参数d

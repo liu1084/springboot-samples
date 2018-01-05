@@ -1,7 +1,6 @@
 package com.example.springcustomannotationsample.service;
 
 import com.example.springcustomannotationsample.service.annotation.DataAccess;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

@@ -1,4 +1,4 @@
-package com.example.springboothibernate4sample;
+package cn.g2link.web.reports;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

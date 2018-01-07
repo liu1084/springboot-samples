@@ -1,0 +1,43 @@
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+    uri-encoding: utf-8
+logging:
+  path: log
+  file: mybatis.log
+  level: debug
+spring:
+  profiles:
+    active: dev
+  aop:
+    auto: true
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      exclude: static/**
+  http:
+    encoding:
+      charset: UTF-8
+  messages:
+    encoding: UTF-8
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  mapper-locations: classpath:mapper/**/*Mapper.xml
+  type-aliases-package: com.jim.mybatis.model.entity
+
+---
+server:
+  port: 8080
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/reports?serverTimezone=UTC&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: bbcchinese
+  redis:
+    host: localhost
+    port: 6379

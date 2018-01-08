@@ -3,6 +3,7 @@ server:
     accesslog:
       enabled: true
     uri-encoding: utf-8
+  context-path: /app
 logging:
   path: log
   file: mybatis.log
@@ -27,7 +28,6 @@ mybatis:
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
   mapper-locations: classpath:mapper/**/*Mapper.xml
   type-aliases-package: com.jim.mybatis.model.entity
-
 ---
 server:
   port: 8080

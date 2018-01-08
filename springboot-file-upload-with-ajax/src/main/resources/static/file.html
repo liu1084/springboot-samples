@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>upload a file</title>
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<form id="form1" method="post" action="/upload" enctype="multipart/form-data">
+    <label for="file">select a file to upload:</label>
+    <input type="file" name="file" id="file" multiple="multiple"/>
+    <button id="submitFile">submit</button>
+</form>
+
+<script src="webjars/jquery/2.1.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $(document).on('click', '#submitFile', function () {
+            var formData = new FormData();
+            formData.append('file', $('#file'));
+            $.ajax({
+                type: 'post',
+                data: formData,
+                url: '/upload',
+                enctype: 'multipart/form-data',
+                processData: false,
+                cache: false,
+                contentType: false
+            }).done(function (data) {
+                console.log(data);
+            }).fail(function (err) {
+                console.log(err);
+            });
+        });
+    });
+</script>
+</body>
+</html>

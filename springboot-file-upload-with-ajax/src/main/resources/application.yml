@@ -1,0 +1,4 @@
+file:
+  upload:
+    uploadPath: /Users/jim.liu/Work/github/springboot-samples/springboot-file-upload-with-ajax/src/main/resources/upload
+    maxSize: 3_145_728

@@ -1,0 +1,28 @@
+
+spring:
+  profiles:
+    active: dev
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      exclude: static/**
+
+email: jim@gmail.com
+thread-pool: 10
+app:
+  menus:
+    - title: Home
+      name: home
+      path: /
+    - title: Login
+      name: login
+      path: /login
+  compiler:
+    timeout: 5
+    ouptput-folder: /tmp
+  error: /error
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.example.springbootreadymlsample: DEBUG

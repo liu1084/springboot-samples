@@ -17,19 +17,18 @@
 * cron计划任务
 * cron的表达式含义如下：
 
->>>
-/* 
- * 第1列秒（0～59）  
- * 第2列分钟0～59  
- * 第3列小时0～23（0表示子夜）  
- * 第4列日1～31  
- * 第5列月1-12 或者 JAN-DEC  
- * 第6列星期1-7 或者 SUN-SAT（1表示星期天）  
- *  
- * spring文档cron解释：  
- * A cron-like expression, extending the usual UN*X definition to include  
- * triggers on the second as well as minute, hour, day of month, month  
- * and day of week.  e.g. {@code "0 * * * * MON-FRI"} means once per minute on  
- * weekdays (at the top of the minute - the 0th second).  
- *  
-*/
+
+    * "0 0 * * * *" = 每天00:00.
+    * "*/10 * * * * *" = 每隔10秒.
+    * "0 0 8-10 * * *" = 每天的08:00,09:00,10:00执行.
+    * "0 0/30 8-10 * * *" = 8:00, 8:30, 9:00, 9:30 and 10 o'clock every day.
+    * "0 0 9-17 * * MON-FRI" = on the hour nine-to-five weekdays
+    * "0 0 0 25 12 ?" = every Christmas Day at midnight
+    Cron expression is represented by six fields:
+    
+    second, minute, hour, day of month, month, day(s) of week
+    (*) means match any
+    
+    */X means "every X"
+    
+    ? ("no specific value") - useful when you need to specify something in one of the two fields in which the character is allowed, but not the other. For example, if I want my trigger to fire on a particular day of the month (say, the 10th), but I don't care what day of the week that happens to be, I would put "10" in the day-of-month field and "?" in the day-of-week field.

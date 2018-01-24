@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: ge*u0Oj9X
+  devtools:
+    restart:
+      exclude: /static/**
+      enabled: true
+    livereload:
+      enabled: true

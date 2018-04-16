@@ -3,10 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>com.jim.anntation</groupId>
     <artifactId>java-annotation-samples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>annotation-processor</module>
+        <module>annotation-user</module>
+        <module>aop-annotation-processor</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
@@ -27,8 +32,8 @@
     <repositories>
         <repository>
             <id>central</id>
-            <!--<url>http://central.maven.org/maven2/</url>-->
-            <url>http://repo.g2link-inc.cn/nexus/content/groups/public</url>
+            <url>http://central.maven.org/maven2/</url>
+            <!--<url>http://repo.g2link-inc.cn/nexus/content/groups/public</url>-->
         </repository>
     </repositories>
 
@@ -73,22 +78,12 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

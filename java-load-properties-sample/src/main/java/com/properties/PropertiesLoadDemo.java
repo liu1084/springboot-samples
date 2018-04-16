@@ -12,7 +12,9 @@ public class PropertiesLoadDemo {
     public static void main(String[] args) {
         try {
             String filePath = "/config.properties";
-            InputStream config = PropertiesLoadDemo.class.getResourceAsStream(filePath);
+            //InputStream config = PropertiesLoadDemo.class.getResourceAsStream(filePath);
+            InputStream config = ClassLoader.class.getResourceAsStream(filePath);
+
             if (config == null) {
                 throw new MyException(100, "can not load " + filePath);
             }

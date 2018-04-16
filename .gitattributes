@@ -6,39 +6,39 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
-*.css           text
-*.df            text
-*.htm           text
-*.html          text
-*.java          text
-*.js            text
-*.json          text
-*.jsp           text
-*.jspf          text
-*.jspx          text
-*.properties    text
-*.sh            text
-*.tld           text
-*.txt           text
-*.tag           text
-*.tagx          text
-*.xml           text
-*.yml           text
+*.css           text    linguist-vendored
+*.df            text    linguist-vendored
+*.htm           text    linguist-vendored
+*.html          text    linguist-vendored
+*.java          text    linguist-vendored
+*.js            text    linguist-vendored
+*.json          text    linguist-vendored
+*.jsp           text    linguist-vendored
+*.jspf          text    linguist-vendored
+*.jspx          text    linguist-vendored
+*.properties    text    linguist-vendored
+*.sh            text    linguist-vendored
+*.tld           text    linguist-vendored
+*.txt           text    linguist-vendored
+*.tag           text    linguist-vendored
+*.tagx          text    linguist-vendored
+*.xml           text    linguist-vendored
+*.yml           text    linguist-vendored
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
-*.class         binary
-*.dll           binary
-*.ear           binary
-*.gif           binary
-*.ico           binary
-*.jar           binary
-*.jpg           binary
-*.jpeg          binary
-*.png           binary
-*.so            binary
+*.class         binary  linguist-vendored
+*.dll           binary  linguist-vendored
+*.ear           binary  linguist-vendored
+*.gif           binary  linguist-vendored
+*.ico           binary  linguist-vendored
+*.jar           binary  linguist-vendored
+*.jpg           binary  linguist-vendored
+*.jpeg          binary  linguist-vendored
+*.png           binary  linguist-vendored
+*.so            binary  linguist-vendored
 <<<<<<< HEAD
-*.war binary
+*.war binary            linguist-vendored
 =======
-*.war           binary
+*.war           binary  linguist-vendored
 >>>>>>> 49f58a77e50af8a5d2014b72ee4c2adecdb94ff4

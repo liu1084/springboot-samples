@@ -4,7 +4,7 @@
 #### 先定义若干切点，以@Pointcut(切点表达式)为注解的若干空的方法，这种类似的方法声明被称为：pointcut signature
 ```java
 class PointcutDemo{
-    @Pointcut("within(@注解类型模式)")
+    @org.aspectj.lang.annotation.Pointcut("within(@注解类型模式)")
     private void methodName1(){
         
     }

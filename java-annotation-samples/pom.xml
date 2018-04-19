@@ -10,6 +10,7 @@
         <module>annotation-processor</module>
         <module>annotation-user</module>
         <module>aop-annotation-processor</module>
+        <module>aspect-samples</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -37,8 +37,4 @@
 *.jpeg          binary  linguist-vendored
 *.png           binary  linguist-vendored
 *.so            binary  linguist-vendored
-<<<<<<< HEAD
-*.war binary            linguist-vendored
-=======
 *.war           binary  linguist-vendored
->>>>>>> 49f58a77e50af8a5d2014b72ee4c2adecdb94ff4

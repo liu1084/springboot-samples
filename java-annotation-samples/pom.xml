@@ -11,6 +11,7 @@
         <module>annotation-user</module>
         <module>aop-annotation-processor</module>
         <module>aspect-samples</module>
+        <module>getter-annotation-processor</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -34,7 +35,7 @@
         <repository>
             <id>central</id>
             <url>http://central.maven.org/maven2/</url>
-            <!--<url>http://repo.g2link-inc.cn/nexus/content/groups/public</url>-->
+            <!--<url>http://repo.llmll.biz/nexus/content/groups/public</url>-->
         </repository>
     </repositories>
 

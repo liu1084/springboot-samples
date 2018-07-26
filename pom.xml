@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jim.springboot</groupId>
@@ -22,7 +21,7 @@
         <repository>
             <id>central</id>
             <!--<url>http://central.maven.org/maven2/</url>-->
-            <url>http://repo.g2link-inc.cn/nexus/content/groups/public</url>
+            <url>http://repo.llmll.biz/nexus/content/groups/public</url>
         </repository>
     </repositories>
 
@@ -33,7 +32,6 @@
 	</properties>
 
     <modules>
-        <module>java-annotation-sample</module>
         <module>java-io-sample</module>
         <module>java-lombok-sample</module>
         <module>java-reentrant-lock-sample</module>
@@ -49,7 +47,8 @@
         <module>springboot-redirect-sample</module>
         <module>springboot-schedule-sample</module>
         <module>springboot-threadpool-sample</module>
-    </modules>
+    <module>java-call-C-sample</module>
+  </modules>
 
 	<dependencies>
 		<dependency>

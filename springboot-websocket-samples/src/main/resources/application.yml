@@ -1,0 +1,29 @@
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+    uri-encoding: UTF-8
+  ssl:
+    key-store: classpath:ssh/keystore.key
+    key-store-password: bbcchinese
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: UTF-8
+  messages:
+    encoding: UTF-8
+  application:
+    name: socket-service
+  thymeleaf:
+    check-template: false
+    mode: HTML5
+debug: true
+
+---
+## dev
+server:
+  port: 8080
+spring:
+  profiles: dev

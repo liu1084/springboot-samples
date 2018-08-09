@@ -1,0 +1,37 @@
+## common config
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: dev
+  aop:
+    auto: true
+  http:
+    encoding:
+      charset: UTF-8
+  messages:
+    encoding: UTF-8
+  application:
+    name: init-data
+  h2:
+    console:
+      enabled: true
+      path: /data/h2/console
+debug: true
+
+
+---
+## dev
+server:
+  port: 8080
+spring:
+  profiles: dev
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    driver-class-name: org.h2.Driver
+    schema: classpath:schema.sql
+    data: classpath:data.sql

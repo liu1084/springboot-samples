@@ -1,0 +1,36 @@
+## common config
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: dev
+  aop:
+    auto: true
+  http:
+    encoding:
+      charset: UTF-8
+  messages:
+    encoding: UTF-8
+  application:
+    name: shell-service
+
+logging:
+  path: /data/web_log/java/shell
+debug: true
+
+---
+# dev
+## port
+server:
+  port: 9090
+## database
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/g2link_billing_center?serverTimezone=UTC&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.jdbc.Driver
+    username: liujun
+    password: Vtoxibk9qnpWr+1w

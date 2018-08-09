@@ -1,0 +1,4 @@
+### 使用ClassLoader或者当前类的class对象方法读取properties文件
+
+- 可以使用ClassLoader或者当前类的class对象方法:getResourceAsInputStream来读取classpath下面的文件；
+- 读取后会生成一个Properties对象，可以使用getProperties(key)方法读取每个字段

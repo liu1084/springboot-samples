@@ -11,11 +11,12 @@
 	<name>springboot-ajax-sample</name>
 	<description>Demo project for Spring Boot</description>
 
-<parent>
-    <artifactId>springboot-demo</artifactId>
-    <groupId>com.jim.springboot</groupId>
-    <version>0.0.1-SNAPSHOT</version>
-</parent>
+	<parent>
+		<artifactId>springboot-all-sample</artifactId>
+		<groupId>com.jim.springboot</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,8 +41,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
-
-    </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <button id="great-button">Click me!</button>
+    </div>
+
+<script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+       $('#great-button').on('click', function () {
+           $(this).toggle();
+       }) ;
+    });
+</script>
+</body>
+</html>

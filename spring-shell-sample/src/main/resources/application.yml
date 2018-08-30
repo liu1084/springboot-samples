@@ -30,7 +30,7 @@ server:
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/g2link_billing_center?serverTimezone=UTC&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://localhost:3306/xxx?serverTimezone=UTC&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     driver-class-name: com.mysql.jdbc.Driver
     username: liujun
     password: Vtoxibk9qnpWr+1w

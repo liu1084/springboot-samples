@@ -18,7 +18,7 @@ public class RequestFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         try {
-            String mdcData = String.format("[From: %s => To: %s] \n", user(request), requestId(request));
+            String mdcData = String.format("[From: %s => To: %s] %n", user(request), requestId(request));
             String mdcSplitLine = "-------------------------------------------------------------------- \n";
             MDC.put("mdcData", mdcData); //Referenced from logging configuration.
             MDC.put("mdcSplitLine", mdcSplitLine);

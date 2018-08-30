@@ -11,7 +11,7 @@
 			<property name="suppressDate" value="false"/>
 		</commentGenerator>
 		<!-- !!!! Database Configurations !!!! -->
-		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/g2link_pms" userId="pms_w" password="Jk81u4jhsn!R"/>
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/pms" userId="pms_w" password="Jk81u4jhsn!R"/>
 		<javaTypeResolver>
 			<property name="forceBigDecimals" value="false"/>
 		</javaTypeResolver>

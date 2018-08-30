@@ -1,8 +1,8 @@
-package cn.g2link.web.reports.model.service;
+package com.jim.web.reports.model.service;
 
-import cn.g2link.web.reports.model.entity.User;
-import cn.g2link.web.reports.model.repository.IUserCrudRepository;
-import cn.g2link.web.reports.model.repository.IUserRepository;
+import com.jim.web.reports.model.entity.User;
+import com.jim.web.reports.model.repository.IUserCrudRepository;
+import com.jim.web.reports.model.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

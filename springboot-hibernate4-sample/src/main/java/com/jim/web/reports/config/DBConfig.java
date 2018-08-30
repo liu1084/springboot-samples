@@ -1,4 +1,4 @@
-package cn.g2link.web.reports.config;
+package com.jim.web.reports.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

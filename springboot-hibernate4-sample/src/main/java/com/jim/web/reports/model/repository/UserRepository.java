@@ -1,6 +1,6 @@
-package cn.g2link.web.reports.model.repository;
+package com.jim.web.reports.model.repository;
 
-import cn.g2link.web.reports.model.entity.User;
+import com.jim.web.reports.model.entity.User;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

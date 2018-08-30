@@ -1,6 +1,6 @@
-package cn.g2link.web.reports.model.repository;
+package com.jim.web.reports.model.repository;
 
-import cn.g2link.web.reports.model.entity.User;
+import com.jim.web.reports.model.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 

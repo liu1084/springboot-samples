@@ -1,4 +1,4 @@
-package cn.g2link.web.reports;
+package com.jim.web.reports;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package cn.g2link.web.reports.model.entity;
+package com.jim.web.reports.model.entity;
 
-import cn.g2link.web.reports.config.EnumPosition;
+import com.jim.web.reports.config.EnumPosition;
 import lombok.Data;
 import org.hibernate.validator.constraints.Email;
 

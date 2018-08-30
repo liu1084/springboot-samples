@@ -33,7 +33,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
 entity:
   scan:
-    package: cn.g2link.web.reports.model.entity
+    package: com.jim.web.reports.model.entity
 ---
 server:
   port: 8080

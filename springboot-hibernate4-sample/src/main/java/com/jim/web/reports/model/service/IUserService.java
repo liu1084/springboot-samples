@@ -1,7 +1,7 @@
-package cn.g2link.web.reports.model.service;
+package com.jim.web.reports.model.service;
 
 
-import cn.g2link.web.reports.model.entity.User;
+import com.jim.web.reports.model.entity.User;
 
 import java.util.List;
 

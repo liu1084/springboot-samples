@@ -1,4 +1,4 @@
-package cn.g2link.web.reports.config;
+package com.jim.web.reports.config;
 
 public enum EnumPosition {
     BOSS("老板"),

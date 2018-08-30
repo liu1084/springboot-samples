@@ -1,7 +1,7 @@
-package cn.g2link.web.reports.controller;
+package com.jim.web.reports.controller;
 
-import cn.g2link.web.reports.model.entity.User;
-import cn.g2link.web.reports.model.service.IUserService;
+import com.jim.web.reports.model.entity.User;
+import com.jim.web.reports.model.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
